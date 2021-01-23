@@ -30,6 +30,8 @@ describe('rxjs', () => {
             vals.push(a)
           })
         ),
+        // runDrain doesnt collect an array of results anymore??
+        // tsdoc says it does :)
         S.runDrain,
       )
 
