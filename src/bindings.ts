@@ -3,6 +3,7 @@ import * as S from '@effect-ts/core/Effect/Stream'
 import { pipe } from '@effect-ts/core/Function'
 import * as NEA from '@effect-ts/core/NonEmptyArray'
 import { Observable } from 'rxjs'
+
 import { encaseObservable, runToObservable, toObservable } from './rxjs'
 
 export interface RxJsEpic<A, S, O = A> {
